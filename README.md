@@ -27,7 +27,8 @@ will create a new branch named 'newFeature' and switch to it in each individual 
 
 ### useful aliases
 
-```$ git config alias.sdiff '!'"git diff && git submodule foreach 'git diff'"
+```
+$ git config alias.sdiff '!'"git diff && git submodule foreach 'git diff'"
 $ git config alias.spush 'push --recurse-submodules=on-demand'
 $ git config alias.supdate 'submodule update --remote --merge'
 
