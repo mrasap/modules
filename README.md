@@ -30,7 +30,9 @@ will create a new branch named 'newFeature' and switch to it in each individual 
 ```
 $ git config alias.sdiff '!'"git diff && git submodule foreach 'git diff'"
 $ git config alias.spush 'push --recurse-submodules=on-demand'
-$ git config alias.supdate 'submodule update --remote --merge'
+$ git config alias.supdate 'submodule update --remote --merge' 
+```
+With these aliases, you can simply `git spush` to push into all submodules.
 
 
 ### source
