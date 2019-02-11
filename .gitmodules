@@ -1,0 +1,6 @@
+[submodule "subModuleA"]
+	path = subModuleA
+	url = git@github.com:mrasap/subModuleA.git
+[submodule "subModuleB"]
+	path = subModuleB
+	url = git@github.com:mrasap/subModuleB.git
